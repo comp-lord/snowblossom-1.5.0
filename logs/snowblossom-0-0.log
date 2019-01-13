@@ -1,0 +1,1155 @@
+[2019-01-13 22:17:27]    INFO snowblossom.node.SnowBlossomNode <init> Starting SnowBlossomNode version 1.5.0
+[2019-01-13 22:17:27]    INFO snowblossom.lib.db.rocksdb.JRocksDB <init> Loadng RocksDB with path node_db/mainnet
+[2019-01-13 22:17:27]    INFO snowblossom.node.Peerage <init> Loaded 12 peers from database
+[2019-01-13 22:17:27]   FINER snowblossom.node.Peerage <init> Peers: [67.170.52.226:2338, 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338, 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338, 89.152.27.59:2338, 54.190.239.231:2338, 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338, 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338, 104.248.71.56:2338, 172.92.140.254:2338, 34.254.166.72:2338, 2601:602:8802:2091:dc9b:dbff:fe1f:2ca9:2338, 2604:a880:2:d0:0:0:76:9001:2338]
+[2019-01-13 22:17:28]    INFO snowblossom.node.Peerage start Starting peerage
+[2019-01-13 22:17:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 0, desired 8
+[2019-01-13 22:17:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:28]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:17:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 11 peer options
+[2019-01-13 22:17:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:17:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:28]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:17:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 10 peer options
+[2019-01-13 22:17:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:17:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:28]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:17:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 9 peer options
+[2019-01-13 22:17:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 54.190.239.231:2338 host: "54.190.239.231"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:17:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:28]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:17:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:17:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:17:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:28]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:17:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:17:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 172.92.140.254:2338 host: "172.92.140.254"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:17:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:28]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:17:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:17:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 104.248.71.56:2338 host: "104.248.71.56"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:17:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:28]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:17:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:17:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:17:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:28]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:17:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:17:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:17:28]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:17:28]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:17:28]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:17:28]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:17:28]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:17:28] WARNING snowblossom.lib.TimeWatcher checkTime Local clock seems to be off by 221354 ms
+[2019-01-13 22:17:28]    FINE snowblossom.lib.TimeWatcher checkTime Local clock seems to be off by 221354 ms
+[2019-01-13 22:17:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 3, desired 8
+[2019-01-13 22:17:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:17:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 67.170.52.226:2338 host: "67.170.52.226"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:17:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:17:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc9b:dbff:fe1f:2ca9:2338 host: "2601:602:8802:2091:dc9b:dbff:fe1f:2ca9"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:17:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:17:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:17:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:17:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:17:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 34.254.166.72:2338 host: "34.254.166.72"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:17:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:17:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:17:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:17:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:17:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 5, desired 8
+[2019-01-13 22:17:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:17:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:17:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:17:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:17:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:48]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:17:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:17:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:17:48]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:17:48]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:17:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 5, desired 8
+[2019-01-13 22:17:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:17:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:17:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:17:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:17:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc9b:dbff:fe1f:2ca9:2338 host: "2601:602:8802:2091:dc9b:dbff:fe1f:2ca9"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:17:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:17:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:17:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:17:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:17:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:17:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:17:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:17:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 0, desired 8
+[2019-01-13 22:18:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:08]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:18:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 11 peer options
+[2019-01-13 22:18:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:08]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:18:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 10 peer options
+[2019-01-13 22:18:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:08]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:18:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 9 peer options
+[2019-01-13 22:18:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:08]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:18:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:18:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 54.190.239.231:2338 host: "54.190.239.231"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:08]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:18:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:18:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:18:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:08]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:18:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:18:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 34.254.166.72:2338 host: "34.254.166.72"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:08]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:18:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:18:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 104.248.71.56:2338 host: "104.248.71.56"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:18:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:08]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:18:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:18:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:18:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 3, desired 8
+[2019-01-13 22:18:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:18:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:18:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:18:18]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:18:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:18:18]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:18:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 172.92.140.254:2338 host: "172.92.140.254"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:18:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:18:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:18]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:18]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 4, desired 8
+[2019-01-13 22:18:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:18:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:18:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:28]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:18:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:18:28]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:18:28]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:28]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 1, desired 8
+[2019-01-13 22:18:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:38]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:18:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 10 peer options
+[2019-01-13 22:18:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:18:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:38]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:18:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 9 peer options
+[2019-01-13 22:18:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc9b:dbff:fe1f:2ca9:2338 host: "2601:602:8802:2091:dc9b:dbff:fe1f:2ca9"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:38]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:18:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:18:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 67.170.52.226:2338 host: "67.170.52.226"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:38]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:18:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:18:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:38]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:18:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:18:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:18:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:38]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:18:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:18:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:38]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:18:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:18:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 34.254.166.72:2338 host: "34.254.166.72"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:48]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 2, desired 8
+[2019-01-13 22:18:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 9 peer options
+[2019-01-13 22:18:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc9b:dbff:fe1f:2ca9:2338 host: "2601:602:8802:2091:dc9b:dbff:fe1f:2ca9"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:18:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 172.92.140.254:2338 host: "172.92.140.254"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:18:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:48]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:18:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:18:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:18:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:18:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 54.190.239.231:2338 host: "54.190.239.231"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:48]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:18:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:18:48]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:48]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 4, desired 8
+[2019-01-13 22:18:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:18:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc9b:dbff:fe1f:2ca9:2338 host: "2601:602:8802:2091:dc9b:dbff:fe1f:2ca9"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:18:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:18:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:18:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:18:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:18:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:18:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:18:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 2, desired 8
+[2019-01-13 22:19:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 9 peer options
+[2019-01-13 22:19:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:19:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:19:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:19:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:19:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:19:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:19:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 34.254.166.72:2338 host: "34.254.166.72"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:19:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 104.248.71.56:2338 host: "104.248.71.56"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:19:18]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:18]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 2, desired 8
+[2019-01-13 22:19:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 9 peer options
+[2019-01-13 22:19:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 67.170.52.226:2338 host: "67.170.52.226"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:19:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:19:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:19:18]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:19:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:19:18]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:19:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:19:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc9b:dbff:fe1f:2ca9:2338 host: "2601:602:8802:2091:dc9b:dbff:fe1f:2ca9"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:18]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:18]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:18]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 3, desired 8
+[2019-01-13 22:19:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:19:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:19:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:28]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:19:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:19:28]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:19:28]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 54.190.239.231:2338 host: "54.190.239.231"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:19:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 172.92.140.254:2338 host: "172.92.140.254"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:19:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 3, desired 8
+[2019-01-13 22:19:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:19:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 34.254.166.72:2338 host: "34.254.166.72"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:19:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:19:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:19:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc9b:dbff:fe1f:2ca9:2338 host: "2601:602:8802:2091:dc9b:dbff:fe1f:2ca9"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:19:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:19:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:48]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 3, desired 8
+[2019-01-13 22:19:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:19:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:19:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:48]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:19:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:19:48]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:19:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:19:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:19:48]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:48]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:48]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 1, desired 8
+[2019-01-13 22:19:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:58]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:19:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 10 peer options
+[2019-01-13 22:19:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:58]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:19:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 9 peer options
+[2019-01-13 22:19:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:58]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:19:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:19:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 172.92.140.254:2338 host: "172.92.140.254"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:19:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:58]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:19:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:19:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:58]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:19:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:19:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:19:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:58]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:19:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:19:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:19:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:19:58]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:19:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:19:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc9b:dbff:fe1f:2ca9:2338 host: "2601:602:8802:2091:dc9b:dbff:fe1f:2ca9"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:19:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:19:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 1, desired 8
+[2019-01-13 22:20:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:08]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:20:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 10 peer options
+[2019-01-13 22:20:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:08]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:20:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 9 peer options
+[2019-01-13 22:20:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 67.170.52.226:2338 host: "67.170.52.226"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:08]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:20:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:20:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 104.248.71.56:2338 host: "104.248.71.56"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:20:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:08]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:20:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:20:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:20:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:08]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:20:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:20:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 54.190.239.231:2338 host: "54.190.239.231"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:08]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:20:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:20:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:20:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:08]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:20:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:20:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 4, desired 8
+[2019-01-13 22:20:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:20:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:20:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc9b:dbff:fe1f:2ca9:2338 host: "2601:602:8802:2091:dc9b:dbff:fe1f:2ca9"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:20:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:18]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:20:18]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:18]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:18]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:18]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:18]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:28]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 3, desired 8
+[2019-01-13 22:20:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:20:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:20:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:20:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:20:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 34.254.166.72:2338 host: "34.254.166.72"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:20:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:28]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:28]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:28]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:20:28]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc9b:dbff:fe1f:2ca9:2338 host: "2601:602:8802:2091:dc9b:dbff:fe1f:2ca9"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:28]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:28]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 1, desired 8
+[2019-01-13 22:20:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:38]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:20:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 10 peer options
+[2019-01-13 22:20:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 54.190.239.231:2338 host: "54.190.239.231"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:38]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:20:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 9 peer options
+[2019-01-13 22:20:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:20:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:38]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:20:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:20:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:38]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:20:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:20:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 67.170.52.226:2338 host: "67.170.52.226"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:38]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:20:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:20:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 172.92.140.254:2338 host: "172.92.140.254"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:20:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:38]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:20:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:20:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 104.248.71.56:2338 host: "104.248.71.56"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:20:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:38]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:20:38]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:20:38]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc9b:dbff:fe1f:2ca9:2338 host: "2601:602:8802:2091:dc9b:dbff:fe1f:2ca9"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:38]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 5, desired 8
+[2019-01-13 22:20:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:20:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:20:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc9b:dbff:fe1f:2ca9:2338 host: "2601:602:8802:2091:dc9b:dbff:fe1f:2ca9"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:48]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:48]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:20:48]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:48]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:48]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 4, desired 8
+[2019-01-13 22:20:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:20:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:20:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:20:58]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:20:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:20:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:20:58]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:20:58]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:20:59]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:59]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:20:59]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:08]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 0, desired 8
+[2019-01-13 22:21:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:08]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:21:08]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 11 peer options
+[2019-01-13 22:21:08]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:09]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:21:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 10 peer options
+[2019-01-13 22:21:09]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 54.190.239.231:2338 host: "54.190.239.231"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:09]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:09]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:21:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 9 peer options
+[2019-01-13 22:21:09]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:09]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:21:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:21:09]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 172.92.140.254:2338 host: "172.92.140.254"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:21:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:09]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:21:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:21:09]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:09]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:09]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:21:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:21:09]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc9b:dbff:fe1f:2ca9:2338 host: "2601:602:8802:2091:dc9b:dbff:fe1f:2ca9"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:09]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:09]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:21:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:21:09]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 67.170.52.226:2338 host: "67.170.52.226"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:09]   FINER snowblossom.node.Peerage$PeerageMaintThread connectToPeers Moving in reserve options
+[2019-01-13 22:21:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:21:09]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:21:09]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:09]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:19]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 3, desired 8
+[2019-01-13 22:21:19]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:19]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:21:19]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:21:19]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:19]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:21:19]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:19]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:19]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:21:19]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 34.254.166.72:2338 host: "34.254.166.72"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:19]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:19]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:19]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:21:19]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc9b:dbff:fe1f:2ca9:2338 host: "2601:602:8802:2091:dc9b:dbff:fe1f:2ca9"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:19]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:19]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:19]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:21:19]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 104.248.71.56:2338 host: "104.248.71.56"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:21:19]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:29]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 5, desired 8
+[2019-01-13 22:21:29]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:29]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:21:29]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:21:29]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:29]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:21:29]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:29]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:29]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:29]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:21:29]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:29]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:29]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:39]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:39]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:39]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:39]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 2, desired 8
+[2019-01-13 22:21:39]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:39]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 9 peer options
+[2019-01-13 22:21:39]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 67.170.52.226:2338 host: "67.170.52.226"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:39]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:39]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:21:39]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:39]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:39]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:21:39]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:21:39]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:39]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:21:39]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:21:39]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:39]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:39]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:39]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:39]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:21:39]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:39]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:39]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:21:39]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 172.92.140.254:2338 host: "172.92.140.254"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:21:39]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:49]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:49]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:49]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 2, desired 8
+[2019-01-13 22:21:49]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:49]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 9 peer options
+[2019-01-13 22:21:49]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:21:49]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:49]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:21:49]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:49]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:49]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:49]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:21:49]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:49]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:49]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:49]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:21:49]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 54.190.239.231:2338 host: "54.190.239.231"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:49]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:49]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:21:49]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 104.248.71.56:2338 host: "104.248.71.56"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:21:49]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:49]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:21:49]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 34.254.166.72:2338 host: "34.254.166.72"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:49]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:59]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 5, desired 8
+[2019-01-13 22:21:59]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:59]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:21:59]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:21:59]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:59]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:21:59]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc43:2ff:fe1e:5206:2338 host: "2601:602:8802:2091:dc43:2ff:fe1e:5206"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:59]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:21:59]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:21:59]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2600:1f14:2f5:9903:3738:190f:d3d0:2876:2338 host: "2600:1f14:2f5:9903:3738:190f:d3d0:2876"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:21:59]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:59]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:21:59]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:22:09]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:22:09]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:22:09]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Connected to 3, desired 8
+[2019-01-13 22:22:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:22:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 8 peer options
+[2019-01-13 22:22:09]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:a880:2:d0:0:0:76:9001:2338 host: "2604:a880:2:d0:0:0:76:9001"
+port: 2338
+learned: 1547162248179
+
+[2019-01-13 22:22:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:22:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 7 peer options
+[2019-01-13 22:22:09]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2a05:d018:76a:8601:c6e4:de52:4cfe:eac0:2338 host: "2a05:d018:76a:8601:c6e4:de52:4cfe:eac0"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:22:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:22:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 6 peer options
+[2019-01-13 22:22:09]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2601:602:8802:2091:dc9b:dbff:fe1f:2ca9:2338 host: "2601:602:8802:2091:dc9b:dbff:fe1f:2ca9"
+port: 2338
+learned: 1547162248066
+
+[2019-01-13 22:22:09]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:22:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:22:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 5 peer options
+[2019-01-13 22:22:09]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 172.92.140.254:2338 host: "172.92.140.254"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:22:09]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:22:09]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+[2019-01-13 22:22:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers Looking for more peers to connect to
+[2019-01-13 22:22:09]  FINEST snowblossom.node.Peerage$PeerageMaintThread connectToPeers There are 4 peer options
+[2019-01-13 22:22:09]    FINE snowblossom.node.Peerage$PeerageMaintThread connectToPeers Selected peer: 2604:4080:1326:83c5:b8d2:cfff:fe79:d961:2338 host: "2604:4080:1326:83c5:b8d2:cfff:fe79:d961"
+port: 2338
+learned: 1547162248293
+
+[2019-01-13 22:22:09]  FINEST snowblossom.node.PeerLink onError link error: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
